@@ -4,14 +4,12 @@
 
 ## 简介
 
-在 `docs` 文件夹中写文档，在 `docs/.vuepress` 中配置项目。其中包括项目配置，组件，主题，样式，增强等。
+在 `docs` 文件夹中写文档，在 `docs/.vuepress` 中配置项目。
+其中包括项目设置，公用组件，主题，样式，功能增强等。
 
 ## 初始化
 
-* 创建目录
-* npm init
-* git init
-* npm i vuepress -D
+* 安装vuepress `npm i vuepress -D`
 * 创建docs文件夹，创建README.md
 * 添加启动命令，package.json 添加
 
@@ -39,7 +37,7 @@
 
 `docs/.vuepress` 下添加 `components` 文件夹，在该文件夹下添加自定义组件。
 
-### 相关依赖
+### 配置组件库等
 
 手动安装需要使用的第三方依赖，并配置。
 
@@ -130,4 +128,6 @@ export default ({ Vue, options, router }) => {
 
 ## 导航和功能配置
 
-<!-- TODO -->
+修改 `config.js`，添加 `themeConfig`。
+
+参考 [Vue Press 主题](https://vuepress.vuejs.org/zh/theme/);
