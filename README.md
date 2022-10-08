@@ -1,8 +1,9 @@
 # 写作
 
-* [] md
-* [] vuepress
-* [] github pages
+* [x] md
+* [x] vuepress
+* [ ] vitepress
+* [ ] github pages
 
 ## md
 
